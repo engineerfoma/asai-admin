@@ -78,6 +78,10 @@ import OrderDetails from 'pages/apps/e-commerce/admin/OrderDetails';
 import Refund from 'pages/apps/e-commerce/admin/Refund';
 import CustomerDetails from 'pages/apps/e-commerce/admin/CustomerDetails';
 import ProjectManagement from 'pages/dashboard/ProjectManagement';
+import AiHouse from 'pages/services/AiHouse';
+import Users from 'pages/account/Users';
+import Tariffs from 'pages/e-commerce/Tariffs';
+import Subscriptions from 'pages/e-commerce/Subscriptions';
 import CreateNew from 'pages/apps/project-management/CreateNew';
 import ProjectListView from 'pages/apps/project-management/ProjectListView';
 import ProjectDetails from 'pages/apps/project-management/ProjectDetails';
@@ -204,6 +208,27 @@ const routes: RouteObject[] = [
           {
             index: true,
             element: <Ecommerce />
+          },
+          {
+            path: '/services',
+            children: [
+              {
+                path: 'aihouse',
+                element: <AiHouse />
+              }
+            ]
+          },
+          {
+            path: '/users',
+            element: <Users />
+          },
+          {
+            path: '/tariffs',
+            element: <Tariffs />
+          },
+          {
+            path: '/subscriptions',
+            element: <Subscriptions />
           },
           {
             path: '/dashboard',

@@ -7,10 +7,7 @@ const EcomTotalSells = () => {
     <>
       <Row className="justify-content-between align-items-center mb-4 g-3">
         <Col xs="auto">
-          <h3>Total sells</h3>
-          <p className="text-body-tertiary lh-sm mb-0">
-            Payment received across all channels
-          </p>
+          <h3>Всего продаж</h3>
         </Col>
         <Col xs={8} sm={4}>
           <Form.Select size="sm">

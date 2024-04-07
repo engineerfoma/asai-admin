@@ -21,22 +21,22 @@ const stats: StatType[] = [
   {
     id: 1,
     icon: faStar,
-    title: '57 new orders',
-    subTitle: 'Awating processing',
+    title: '57 новых заказов',
+    subTitle: 'В обработке',
     color: 'success'
   },
   {
     id: 2,
     icon: faPause,
-    title: '5 orders',
-    subTitle: 'On hold',
+    title: '5 заказов',
+    subTitle: 'В резерве',
     color: 'warning'
   },
   {
     id: 3,
     icon: faXmark,
-    title: '15 products',
-    subTitle: 'Out of stock',
+    title: '15 товаров',
+    subTitle: 'Нет в наличии',
     color: 'danger'
   }
 ];

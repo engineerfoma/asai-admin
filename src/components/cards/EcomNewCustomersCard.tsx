@@ -9,12 +9,12 @@ const EcomNewCustomersCard = () => {
         <div className="d-flex justify-content-between">
           <div>
             <h5 className="mb-1">
-              New customers
+              Средняя скидка по купонам
               <Badge bg="warning" variant="phoenix" pill className="ms-2">
                 +26.5%
               </Badge>
             </h5>
-            <h6 className="text-body-tertiary">Last 7 days</h6>
+            <h6 className="text-body-tertiary">за последние 7 дней</h6>
           </div>
           <h4>356</h4>
         </div>

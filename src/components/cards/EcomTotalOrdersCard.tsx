@@ -10,12 +10,12 @@ const EcomTotalOrdersCard = () => {
         <div className="d-flex justify-content-between">
           <div>
             <h5 className="mb-1">
-              Total orders
+              Продажи
               <Badge bg="warning" variant="phoenix" pill className="ms-2">
                 -6.8%
               </Badge>
             </h5>
-            <h6 className="text-body-tertiary">Last 7 days</h6>
+            <h6 className="text-body-tertiary">за последние 7 дней</h6>
           </div>
           <h4>16,247</h4>
         </div>
@@ -25,13 +25,13 @@ const EcomTotalOrdersCard = () => {
         <div className="mt-2">
           <div className="d-flex align-items-center mb-2">
             <div className="bullet-item bg-primary me-2"></div>
-            <h6 className="text-body fw-semibold flex-1 mb-0">Completed</h6>
+            <h6 className="text-body fw-semibold flex-1 mb-0">Оплачено</h6>
             <h6 className="text-body fw-semibold mb-0">52%</h6>
           </div>
           <div className="d-flex align-items-center">
             <div className="bullet-item bg-primary-subtle me-2"></div>
             <h6 className="text-body fw-semibold flex-1 mb-0">
-              Pending payment
+              Ожидают оплаты
             </h6>
             <h6 className="text-body fw-semibold mb-0">48%</h6>
           </div>

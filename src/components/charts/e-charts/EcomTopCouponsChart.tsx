@@ -51,7 +51,6 @@ const getDefaultOptions = (getThemeColor: (name: string) => string) => ({
       data: [
         { value: 7200000, name: 'Percentage discount' },
         { value: 1800000, name: 'Fixed card discount' },
-        { value: 1000000, name: 'Fixed product discount' }
       ]
     }
   ],

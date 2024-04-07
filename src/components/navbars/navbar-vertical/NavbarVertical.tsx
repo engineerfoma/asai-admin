@@ -77,7 +77,7 @@ const NavbarVerical = () => {
             ) : (
               <>
                 <UilLeftArrowToLeft size={16} className="mb-1" />
-                <span className="ms-2">Collapsed View</span>
+                <span className="ms-2">Свернуть</span>
               </>
             )}
           </Button>
